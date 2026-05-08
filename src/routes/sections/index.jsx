@@ -1,0 +1,32 @@
+import { lazy } from 'react';
+import { Navigate } from 'react-router';
+
+import { authRoutes } from './auth';
+import { dashboardRoutes } from './dashboard';
+
+// ----------------------------------------------------------------------
+
+const Page404 = lazy(() => import('src/pages/error/404'));
+const PortfolioPage = lazy(() => import('src/pages/portfolio'));
+
+export const routesSection = [
+  {
+    path: '/',
+    element: <Navigate to="/portfolio" replace />,
+  },
+
+  // Portfolio
+  {
+    path: 'portfolio',
+    element: <PortfolioPage />,
+  },
+
+  // Auth
+  ...authRoutes,
+
+  // Dashboard
+  ...dashboardRoutes,
+
+  // No match
+  { path: '*', element: <Page404 /> },
+];

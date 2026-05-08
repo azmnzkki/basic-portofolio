@@ -1,0 +1,25 @@
+# Project Images Placeholder
+
+Ganti file-file berikut dengan screenshot project Anda:
+
+## Professional Work:
+- ecommerce.jpg
+- dashboard-blur.jpg (blur untuk NDA)
+- booking.jpg
+- internal-blur.jpg (blur untuk NDA)
+
+## Personal Projects:
+- weather.jpg
+- task-manager.jpg
+- recipe.jpg
+- portfolio-template.jpg
+- expense.jpg
+- movie-db.jpg
+
+## Journey Timeline:
+- html-css-project.jpg
+- js-project.jpg
+- react-project.jpg
+- nextjs-project.jpg
+
+Ukuran rekomendasi: 1200x800px atau 16:9 ratio
